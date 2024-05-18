@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <link rel="stylesheet" href="todo.css">
+
+        <link rel="icon" type="image/x-icon" href="images.jpeg">
+
+        <title id="title-font">To.do - One For All</title>
+</head>
+<body>
+    
+    
+    <!-- <div id="back"> -->
+       <div id="container">
+           <h2 id="heading">To-Do List </h2>
+  
+        <img id="head-img" src="Notes.png">
+
+           <div id = "add-text">
+            <input type="text" id="input-text"
+            autocomplete="off" placeholder="Add new task">
+
+            <input type="date" id="date">
+
+            <button id="add" onclick="addTask();">+</button>
+
+           
+
+        </div>
+    
+        <!-- <div id="date-div">
+            <ul id="date">
+                <li>15-05-2024</li>
+            </ul>
+        </div> -->
+    
+        <ul id="list-container">
+           
+        </ul>
+        <div id="clear">
+            <button id="clear-button" onclick="clearAll();">Clear all</button>
+        </div>
+    <!-- </div> -->
+    </div>
+    
+  <script src="todo.js"></script>  
+</body>
+</html>
